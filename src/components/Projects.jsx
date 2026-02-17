@@ -97,7 +97,7 @@ const Projects = () => {
       description: "This is a fun project that utilizes some of the amazing Python libraries in order to build a script that can recognize human emotion through the camera with facial recognition tools.",
       technologies: ["Python"],
       githubUrl: "https://github.com/NateDaveHill/emotion-detector",
-      liveUrl: "https://project3-demo.com",
+      liveUrl: null,
       image: emotionRecognitionImg,
       video: null
     }

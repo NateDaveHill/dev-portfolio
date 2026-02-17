@@ -1,11 +1,12 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import './Hero.css'
+import heroBg from '../assets/images/thoughtfully in motion.jpg'
 
 const Hero = () => {
   return (
     <section className="hero">
-      <div className="hero-background"></div>
+      <div className="hero-background" style={{ backgroundImage: `url(${heroBg})` }}></div>
       <div className="container hero-content">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

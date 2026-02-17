@@ -37,8 +37,7 @@ const About = () => {
               <p className="about-verse">- Jeremiah 29:11</p>
 
               <p className="about-description">
-                Every line of code I write is an opportunity to serve others and honor God through excellence.
-                I believe in building solutions that make a real difference in people's lives.
+                Every line of code I write is an opportunity to serve others and pursue a heart of excellence and continuous growth. I believe in building solutions that make a real difference in people's lives, while at the same time also building my skill, mindset and character.
               </p>
 
               <div className="about-values">

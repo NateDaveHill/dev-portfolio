@@ -3,6 +3,10 @@ import { useInView } from 'framer-motion'
 import { useRef, useState } from 'react'
 import './Projects.css'
 
+import webshopImg from '../assets/images/webshop.png'
+import receiptFinderImg from '../assets/images/receipt-finder.PNG'
+import emotionRecognitionImg from '../assets/images/emotion-recognition.png'
+
 // Component for project media (image with optional video on hover)
 const ProjectMedia = ({ image, video, title }) => {
   const [isHovered, setIsHovered] = useState(false)
@@ -74,7 +78,7 @@ const Projects = () => {
       technologies: ["HTML", "CSS", "JS", "PHP", "MySql"],
       githubUrl: "https://github.com/NateDaveHill/diplomarbeit-final-project",
       liveUrl: "https://diplomarbeit-final-project-production.up.railway.app/", // Optional
-      image: null, // Thumbnail image shown by default
+      image: webshopImg, // Thumbnail image shown by default
       video: null  // Optional: video plays on hover (e.g., "/videos/project1-preview.mp4")
     },
     {
@@ -84,7 +88,7 @@ const Projects = () => {
       technologies: ["React Native", "React", "TypeScript", "Expo", "OpenAi"],
       githubUrl: "https://github.com/NateDaveHill/receiptify-expo-app",
       liveUrl: null,
-      image: null,
+      image: receiptFinderImg,
       video: null
     },
     {
@@ -94,7 +98,7 @@ const Projects = () => {
       technologies: ["Python"],
       githubUrl: "https://github.com/NateDaveHill/emotion-detector",
       liveUrl: "https://project3-demo.com",
-      image: null,
+      image: emotionRecognitionImg,
       video: null
     }
   ]
@@ -131,7 +135,7 @@ const Projects = () => {
         >
           <h2 className="section-title">My Projects</h2>
           <p className="projects-intro">
-            "Commit to the Lord whatever you do, and he will establish your plans." - Proverbs 16:3
+            Whatever I do today, I do in preparation for tomorrow.
           </p>
         </motion.div>
 
